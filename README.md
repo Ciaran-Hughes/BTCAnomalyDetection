@@ -30,14 +30,13 @@ Further details on both goals are given below.
 
 ## Prerequisites
 
----
 
-Python3 is needed to run this package. The easiest way to run this code is to make a new conda envirnoment with python3.9.6
+Python3 is needed to run this package. The easiest way to run this code is to make a new conda environment with python3.9.6
 ```
 $ conda create -n "anom_detect" python=3.9.6
 ```
 
-Now install the modules that are needed inside this conda envirnoment by running 
+Now install the modules that are needed inside this conda environment by running 
 ```
 $ pip install -r requirements.txt
 ```
@@ -47,7 +46,7 @@ Note: this code does not contain a setup.py as it is not intended to be installe
 
 # Usage 
 
-The directory structure of this package is laid out as follow:
+The directory structure of this package is laid out as follows:
 ```
                                  |--> ModelCreation--> SaveModel
                |--> anom_tool ---|
@@ -75,7 +74,7 @@ This code also outputs some statistics to the screen about the absolute number a
 
 ---
 
-To utilise the anomaly detection model, there is a python command line tool in the AnomalyCLI directory. This can be run using python or as an executable
+To utilize the anomaly detection model, there is a python command line tool in the AnomalyCLI directory. This can be run using python or as an executable
 
 ```
  python anomaly_cli.py -h 
@@ -136,5 +135,5 @@ This restrictions would be removed if a local node was hosted.
 - Some panda's dataframe calls (like apply's) are inefficient and could be replaced or vectorised if needed. 
 
 ### Maintainable 
-- The seperation into tasks allows the model to be retrained on more recent data to avoid data-drift concurrently to the tooling being used. 
-- The code is modularised, with different modules doing conceptually different tasks, and with a functional programming framework coding style, in order to ensure maintainability, extendability, and simplicity. 
+- The separation into tasks allows the model to be retrained on more recent data to avoid data-drift concurrently to the tooling being used. 
+- The code is modularized, with different modules doing conceptually different tasks, and with a functional programming framework coding style, in order to ensure maintainability, extendability, and simplicity. 
