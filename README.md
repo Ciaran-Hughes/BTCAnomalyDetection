@@ -57,7 +57,6 @@ The directory structure of this package is laid out as follows:
 
 ## Model Creation 
 
----
 
 To create the anomaly detection model, move to the ModelCreation directory 
 and run 
@@ -72,7 +71,7 @@ This code also outputs some statistics to the screen about the absolute number a
 
 ## Anomaly Detection via python command line tool
 
----
+
 
 To utilize the anomaly detection model, there is a python command line tool in the AnomalyCLI directory. This can be run using python or as an executable
 
